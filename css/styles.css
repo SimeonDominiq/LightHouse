@@ -88,6 +88,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .app-bg-color {
@@ -106,6 +107,21 @@ body {
     color: #ffffff;
 }
 
+.ft-16 {
+    font-size: 16px;
+}
+.ft-15 {
+    font-size: 15px;
+}
+.ft-14 {
+    font-size: 14px;
+}
+.ft-13 {
+    font-size: 13px !important;
+}
+.ft-12 {
+    font-size: 12px !important;
+}
 .min-height-120 {
     min-height: 120px;
 }
@@ -139,6 +155,7 @@ body {
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    word-spacing: 2em;
 }
 #carousel-area .carousel-item .carousel-caption h1 span {
     display: inline-block;
@@ -159,8 +176,30 @@ body {
     text-align: center;
     line-height: 70px;
 }
+.banner-sec-text span {
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.8em;
+}
+.banner-sec-text span:before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    height: 5px;
+    border-bottom: 3px solid #F54B28;
+    top: 10px;
+    width: 30px;
+}
 .banner-sec-btm-div {
     background: repeating-linear-gradient(320deg, #183942, #183942 1px, #123038 1px, #123038 6px);
+}
+.banner-sec-btm-div span {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 15px;        
 }
 .slider-controls div a {
     display: block;
@@ -201,6 +240,8 @@ body {
     text-decoration: none;
     padding: 0 30px;
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 @media(min-width: 991px) {
@@ -219,5 +260,15 @@ body {
     }
     .navbar .nav-link {
         color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .navbar-expand-md .navbar-nav li:first-child a {
+        padding-left: 0px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
