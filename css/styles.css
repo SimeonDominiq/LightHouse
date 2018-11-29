@@ -106,6 +106,9 @@ body {
 .white-text {
     color: #ffffff;
 }
+.orange-text {
+    color: #F54B28;
+}
 
 .ft-16 {
     font-size: 16px;
@@ -135,27 +138,27 @@ body {
 }
 
 #carousel-area .carousel-item .carousel-caption {
-    top: 25%;
+    top: 15%;
     text-shadow: none;
 }
 #carousel-area .carousel-item .carousel-caption h1 {
     color: #F8EDDB;
     font-size: 6em;
     position: relative;
-    left: -80px;
+    left: -90px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 #carousel-area .carousel-item .carousel-caption h3 {
     color: #123038;
     position: relative;
-    left: 100px;
+    left: 110px;
     top: -20px;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    word-spacing: 2em;
+    font-weight: 700;
+    letter-spacing: .2em;
 }
 #carousel-area .carousel-item .carousel-caption h1 span {
     display: inline-block;
@@ -270,5 +273,15 @@ body {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .navbar-expand-md .navbar-nav .nav-item .active:after {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #F54B28;
+        margin: 0 auto;
+        margin-top: 3px;
     }
 }
